@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<zabbix_export version="6.0">
+  <templates>
+    <template>
+      <uuid>07af8328-d2f1-4338-a510-f1fea14b089e</uuid>
+      <template>Template SNMP Stulz WIB8000</template>
+      <name>Template SNMP Stulz WIB8000</name>
+      <description>SNMP monitoring template for Stulz WIB8000 WebInterfaceBoard</description>
+      <groups>
+        <group>
+          <name>Templates/HVAC</name>
+        </group>
+      </groups>
+      <items>
+        <item>
+          <uuid>57cbb7a6-d7c5-4496-8a8a-b00b100e4fd2</uuid>
+          <name>Device Name</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibUnitname.0</snmp_oid>
+          <key>wib.unit.name</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>3e775345-e8a1-4a9b-a353-6b7453b8834c</uuid>
+          <name>Temperature Unit</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibTempUnit.0</snmp_oid>
+          <key>wib.temp.unit</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>08e03476-90b7-4d22-b106-5da493daf5a1</uuid>
+          <name>Firmware Version</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibFirmware.0</snmp_oid>
+          <key>wib.firmware.version</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>531aa568-a10a-46f3-a28d-249dd1d1f4da</uuid>
+          <name>Active Alarm Text</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibAlarmText.0</snmp_oid>
+          <key>wib.alarm.text</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>752429a2-ffa5-4f85-9deb-bef57723f497</uuid>
+          <name>Aux Input State</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInState.0</snmp_oid>
+          <key>wib.aux.state</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>3</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>bf56c351-2177-4a5e-9f2e-0eed49b296a7</uuid>
+          <name>Aux Input Low Threshold</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInLow.0</snmp_oid>
+          <key>wib.aux.low</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>0</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+        <item>
+          <uuid>65bb2834-55b3-44b8-b91b-8f1395be7dad</uuid>
+          <name>Aux Input High Threshold</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInHigh.0</snmp_oid>
+          <key>wib.aux.high</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>0</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+          <tags/>
+          <triggers/>
+        </item>
+      </items>
+      <discovery_rules/>
+      <httptests/>
+      <macros/>
+      <templates/>
+      <screens/>
+    </template>
+  </templates>
+</zabbix_export>
