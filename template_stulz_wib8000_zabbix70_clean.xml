@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<zabbix_export version="6.0">
+  <templates>
+    <template>
+      <uuid>9021a2a7-14f1-477e-99f0-1853b058e99e</uuid>
+      <template>Template SNMP Stulz WIB8000</template>
+      <name>Template SNMP Stulz WIB8000</name>
+      <description>SNMP monitoring template for Stulz WIB8000 WebInterfaceBoard</description>
+      <groups>
+        <group>
+          <name>Templates/HVAC</name>
+        </group>
+      </groups>
+      <items>
+        <item>
+          <uuid>dfde6dc6-2c5c-4b46-a8c1-770250dc84bc</uuid>
+          <name>Device Name</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibUnitname.0</snmp_oid>
+          <key>wib.unit.name</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>a7072820-0273-4cff-b52e-d41a50581b17</uuid>
+          <name>Temperature Unit</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibTempUnit.0</snmp_oid>
+          <key>wib.temp.unit</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>68573614-a0d8-4230-9a2e-437cc10bb1e6</uuid>
+          <name>Firmware Version</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibFirmware.0</snmp_oid>
+          <key>wib.firmware.version</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>bf0bf9bd-4dcf-4952-b4a5-b23777cb8e62</uuid>
+          <name>Active Alarm Text</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibAlarmText.0</snmp_oid>
+          <key>wib.alarm.text</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>4</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>bb6a5c54-3efa-4e34-96da-6fc71a187112</uuid>
+          <name>Aux Input State</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInState.0</snmp_oid>
+          <key>wib.aux.state</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>3</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>25a25fb9-2ed3-4b93-962b-554cf9f01025</uuid>
+          <name>Aux Input Low Threshold</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInLow.0</snmp_oid>
+          <key>wib.aux.low</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>0</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+        <item>
+          <uuid>9b95e01c-10df-4fe3-a0a3-4c9486fb42da</uuid>
+          <name>Aux Input High Threshold</name>
+          <type>4</type>
+          <snmp_oid>STULZ-WIB8000-MIB::wibsettingAuxInHigh.0</snmp_oid>
+          <key>wib.aux.high</key>
+          <delay>60s</delay>
+          <history>7d</history>
+          <trends>0</trends>
+          <value_type>0</value_type>
+          <units></units>
+          <applications>
+            <application>Stulz WIB8000</application>
+          </applications>
+        </item>
+      </items>
+    </template>
+  </templates>
+</zabbix_export>
